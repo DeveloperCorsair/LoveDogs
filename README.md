@@ -6,16 +6,16 @@
 
 ## 🚀 Objetivo
 
-Promover a adoção consciente, o carinho e os cuidados com os cães, incentivando o vínculo entre humanos e seus companheiros de quatro patas.
+Promover a adoção consciente, o carinho e os cuidados com os cães, incentivando o vínculo entre as pessoas e seus companheiros de quatro patas.
 
 ---
 
 ## 🌟 Funcionalidades
 
-- Página com textos sobre adoção, criação e cuidados com cães
-- Conteúdo informativo e emocional sobre a importância de ter um cachorro
+- Páginas intuitivas com textos sobre adoção, criação e cuidados com cães
+- Conteúdo informativo e que visa mostrar a importância de ter um cachorro
 - Seções de contato, objetivo e sobre a iniciativa
-- Design leve e responsivo
+- Design leve e intuitivo
 
 ---
 
@@ -23,5 +23,4 @@ Promover a adoção consciente, o carinho e os cuidados com os cães, incentivan
 
 - HTML5
 - CSS3
-- JavaScript (se houver scripts)
 - (Você pode adicionar frameworks ou libs aqui, como Bootstrap, React, etc.)
