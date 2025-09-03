@@ -35,6 +35,15 @@ img {
     box-shadow: 5px 10px 15px gray;
 }
 
+.texts-main{
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+#paragrafos > p {
+    margin: 0px;
+}
+
 article {
     margin: 4%;
     text-align: justify;
