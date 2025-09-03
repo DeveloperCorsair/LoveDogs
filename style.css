@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid saddlebrown;
+    border-bottom: 1px solid black;
     min-width: 100%;
     padding: 10px;
 }
@@ -41,11 +41,12 @@ img {
 }
 
 #paragrafos > p {
-    margin: 0px;
+    margin: 0px auto;
+    margin-bottom: 0px;
 }
 
 article {
-    margin: 4%;
+    margin: 3%;
     text-align: justify;
 }
 
@@ -61,10 +62,6 @@ article {
 
 #form {
     margin: 4%;
-}
-
-h3 {
-    margin-bottom: 0;
 }
 
 input {
