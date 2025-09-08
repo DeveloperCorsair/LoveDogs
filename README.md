@@ -23,4 +23,3 @@ Promover a adoção consciente, o carinho e os cuidados com os cães, incentivan
 
 - HTML5
 - CSS3
-- (Você pode adicionar frameworks ou libs aqui, como Bootstrap, React, etc.)
