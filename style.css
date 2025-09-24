@@ -18,11 +18,25 @@ body {
 header {
     align-items: center;
     border-bottom: 1px solid black;
+    font-weight: bold;
 }
 
 header a {
     color: black;
     text-decoration: inherit;
+}
+
+#love {
+    font-weight: bold;
+}
+
+.sections {
+    display: flex;
+    align-items: right;
+}
+
+.dogs {
+    align-items: right;
 }
 
 #photo {
@@ -51,11 +65,12 @@ article {
     text-align: justify;
 }
 
+
 #title {
+    font-weight: bold;
     justify-content: center;
     margin-top: 3%;
-    font-size: 20px;
-    text-decoration:wavy;
+    font-size: 22px;
 }
 
 #lista {
@@ -64,6 +79,10 @@ article {
 
 #form {
     margin: 4%;
+}
+
+.contato {
+    margin-left: 4%;
 }
 
 #enviar {
@@ -82,7 +101,7 @@ article {
     color: black;
 }
 
-body > footer {
+body>footer {
     position: sticky;
     top: 100vh;
     text-align: center;
