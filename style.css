@@ -10,6 +10,10 @@ body {
     min-height: 100vh;
 }
 
+main {
+    margin: 2%;
+}
+
 .navbar {
     margin: 0 0 0 3%;
     text-align: center;
@@ -76,7 +80,6 @@ article {
     text-align: justify;
 }
 
-
 #title {
     font-weight: bold;
     justify-content: center;
@@ -119,5 +122,5 @@ article {
     display: flex;
     justify-content: space-between;
     position: sticky;
-    margin: 0px 5% 2% 3.5%;
+    margin: 35px 7% 2% 5%;
 }
