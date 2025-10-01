@@ -35,8 +35,19 @@ header a {
     align-items: right;
 }
 
-.dogs {
-    align-items: right;
+.article1 {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 2 2;
+}
+
+.container-about {
+    margin-left: 2%;
+}
+
+#dogs {
+    width: 50%;
+    margin-left: 25%;
 }
 
 #photo {
@@ -70,6 +81,7 @@ article {
     font-weight: bold;
     justify-content: center;
     margin-top: 3%;
+    align-items: center;
     font-size: 22px;
 }
 
@@ -93,7 +105,8 @@ article {
     vertical-align: middle;
     width: 30px;
     box-shadow: none;
-    align-items: end;
+    margin-left: 97%;
+    box-shadow: none;
 }
 
 #devcor {
@@ -101,8 +114,10 @@ article {
     color: black;
 }
 
-body>footer {
+.footer-directs {
+    top: 90vh;
+    display: flex;
+    justify-content: space-between;
     position: sticky;
-    top: 100vh;
-    text-align: center;
+    margin: 0px 5% 2% 3.5%;
 }
