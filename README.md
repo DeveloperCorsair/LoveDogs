@@ -21,5 +21,6 @@ Promover a adoção consciente, o carinho e os cuidados com os cães, incentivan
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5
-- CSS3
+<div text-align="left">
+    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,git,github"/>
+</div>
