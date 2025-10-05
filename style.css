@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-html {
-
-}
-
 body {
     background-color: rgb(239, 232, 232);
     font-family: 'Montserrat';
@@ -116,14 +112,16 @@ article {
 }
 
 #devcor {
-    text-decoration: inherit;
     color: black;
 }
 
-.footer-directs {
+footer {
+    position: sticky;
     top: 100vh;
+}
+
+.footer-directs {
     display: flex;
     justify-content: space-between;
-    position: sticky;
     margin: 35px 7% 2% 5%;
 }
