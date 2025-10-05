@@ -1,0 +1,128 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(239, 232, 232);
+    font-family: 'Montserrat';
+    margin: 2% auto;
+    max-width: 100%;
+    margin: 20px auto;
+    min-height: 100vh;
+}
+
+main {
+    margin: 2%;
+}
+
+.navbar {
+    margin: 0 0 0 3%;
+    text-align: center;
+}
+
+header {
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+header a {
+    color: black;
+    text-decoration: inherit;
+}
+
+
+.sections {
+    display: flex;
+    align-items: right;
+}
+
+.article1 {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 2 2;
+}
+
+.container-about {
+    margin-left: 2%;
+}
+
+#dogs {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#photo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    margin-top: 3%;
+    width: 35%;
+    border-radius: 5%;
+    box-shadow: 5px 10px 15px gray;
+}
+
+.texts-main {
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+#paragrafos>p {
+    margin-bottom: 0px;
+}
+
+article {
+    margin: 3%;
+    text-align: justify;
+}
+
+#title {
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+    font-size: 22px;
+}
+
+#lista {
+    border-bottom: 1px solid black;
+}
+
+#form {
+    margin: 4%;
+}
+
+.contato {
+    margin-left: 4%;
+}
+
+input {
+    width: 1000px;
+}
+#enviar {
+    margin-top: 1%;
+}
+
+#github {
+    vertical-align: middle;
+    width: 30px;
+    box-shadow: none;
+    margin-left: 97%;
+    box-shadow: none;
+}
+
+#devcor {
+    color: black;
+}
+
+footer {
+    position: sticky;
+    top: 100vh;
+}
+
+.footer-directs {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 7% 2% 5%;
+}

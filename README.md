@@ -24,3 +24,22 @@ Promover a adoção consciente, o carinho e os cuidados com os cães, incentivan
 <div text-align="left">
     <img src="https://skillicons.dev/icons?i=html,css,bootstrap,git,github"/>
 </div>
+
+
+## Como iniciar o projeto
+
+### Clone o repositório
+
+No terminal cole este comando:
+
+```
+git clone https://github.com/DeveloperCorsair/LoveDogs.git
+```
+
+### Iniciando o Tailwind
+Para iniciar o Tailwind, no terminal, execute o seguinte comando:
+
+```
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+```
+
