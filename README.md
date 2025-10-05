@@ -42,4 +42,3 @@ Para iniciar o Tailwind, no terminal, execute o seguinte comando:
 ```
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 ```
-

@@ -9,22 +9,22 @@
         href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGQ6Cl3vL-Z3GWCC33Pg13IReyE_oi4E9_xg&s">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="./output.css" rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- Header -->
     <header>
         <!-- Item Bootstrap 01 -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <!-- Item Bootstrap 08 -->
                 <a class="navbar-brand font-monospace" href="./index.html" id="love">Love Dog</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div id="navbarNav">
                     <ul class="navbar-nav ms-auto mb-2">
+                        <!-- Mantendo links do layout original -->
                         <li class="nav-item">
                             <a class="nav-link active" href="./index.html">Home</a>
                         </li>
@@ -36,40 +36,48 @@
             </div>
         </nav>
     </header>
-    <main>
+
+    <!-- Main -->
+    <main class="container mx-auto px-4 py-6">
         <section>
-            <article class="contato">
-                <h3 h3 id="title">Quer falar com a gente?</h3>
-                <p> Seja para tirar dúvidas, sugerir ideias ou solicitar nossos serviços, estamos prontos para te ouvir!
+            <article class="contato text-center mb-8">
+                <h3 id="title">Quer falar com a gente?</h3>
+                <p class="text-sm sm:text-base">
+                    Seja para tirar dúvidas, sugerir ideias ou solicitar nossos serviços, estamos prontos para te ouvir!
                     <br>
-                    Preencha o formulário abaixo ou envie um e-mail para contato@lovedogs.com
+                    Preencha o formulário abaixo ou envie um e-mail para
+                    <a href="mailto:contato@lovedogs.com" class="text-blue-600 underline">contato@lovedogs.com</a>
                 </p>
             </article>
         </section>
-        <section id="form">
+        <section id="form" class="max-w-lg mx-auto border-1 border-gray-500 p-4 rounded-lg">
             <span>Digite seu e-mail:</span>
             <br>
-            <input class="border-1 border-indigo-500 opacity-50 rounded-lg" type="email" value="">
+            <input class="form-control w-full sm:w-[300px] border-1 border-black-500 opacity-50 rounded-sm" type="email"
+                value="">
             <br>
             <span>Assunto:</span>
             <br>
-            <input class="border-1 border-indigo-500 opacity-50 rounded-lg" type="email" value="">
+            <input class="form-control w-full sm:w-[300px] border-1 border-black-500 opacity-50 rounded-sm" type="text"
+                value="">
             <br>
             <span>Descrição:</span>
             <br>
-            <input class="border-1 border-indigo-500 opacity-50 rounded-lg" type="text" value="">
+            <input class="form-control w-full sm:w-[300px] border-1 border-dark-500 opacity-50 rounded-sm" type="text"
+                value="">
             <br>
             <!-- Item Bootstrap 02 -->
-            <button type="button" class="btn btn-outline-secondary" id="enviar">Enviar</button>
+            <button type="button" class="btn btn-outline-secondary w-full sm:w-auto sm:px-6" id="enviar">Enviar</button>
         </section>
     </main>
-    <footer>
-        <div class="footer-directs">
+
+    <footer class="py-4 mt-8">
+        <div class="footer-directs container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
             <!-- Item Bootstrap 06 -->
             <a href="https://github.com/DeveloperCorsair" id="devcor"
                 class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
                 &copy;Desenvolved by Developer-Corsair</a>
-            <a href="https://github.com/DeveloperCorsair"><img id="github" src="../img/github-mark.png"
+            <a href="https://github.com/DeveloperCorsair" class="pr-44"><img id="github" src="../img/github-mark.png"
                     alt="github"></a>
         </div>
     </footer>
