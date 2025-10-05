@@ -8,6 +8,7 @@ body {
     max-width: 100%;
     margin: 20px auto;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 main {
@@ -100,6 +101,7 @@ article {
 input {
     width: 1000px;
 }
+
 #enviar {
     margin-top: 1%;
 }
