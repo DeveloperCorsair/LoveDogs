@@ -18,25 +18,9 @@
 
     <!-- Custom CSS -->
     <link href="./output.css" rel="stylesheet">
-
-    <style>
-        /* Remove margens e paddings padrões do navegador */
-        body,
-        html {
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Remove padding horizontal dos containers Bootstrap */
-        .container,
-        .container-fluid {
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-        }
-    </style>
 </head>
 
-<body class="m-0 p-0">
+<body>
     <!-- Header -->
     <header>
         <!-- Item Bootstrap 01 -->
@@ -45,12 +29,16 @@
                 <!-- Item Bootstrap 08 -->
                 <a class="navbar-brand font-monospace" href="./index.html" id="love">Love Dog</a>
                 <div id="navbarNav">
-                    <ul class="navbar-nav ms-auto mb-2 flex flex-wrap">
+                    <ul class="navbar-nav ms-auto mb-2">
+                        <!-- Mantendo links do layout original -->
                         <li class="nav-item">
                             <a class="nav-link active" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./contact.html">Contato</a>
+                            <a class="nav-link active" href="./about.html">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contact.html">Contatos</a>
                         </li>
                     </ul>
                 </div>
@@ -112,12 +100,11 @@
         </article>
     </main>
 
-    <footer class="py-4 mt-8">
+    <footer>
         <div
             class="footer-directs container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
             <!-- Item Bootstrap 06 -->
-            <a href="https://github.com/DeveloperCorsair" id="devcor"
-                class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+            <a href="https://github.com/DeveloperCorsair" id="devcor" class="hover:underline hover:opacity-100">
                 &copy;Desenvolved by Developer-Corsair</a>
             <a href="https://github.com/DeveloperCorsair" class="pr-32">
                 <img id="github" src="../img/github-mark.png" alt="github">

@@ -7,12 +7,8 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-200: oklch(88.5% 0.062 18.334);
     --color-blue-600: oklch(54.6% 0.245 262.881);
-    --color-indigo-500: oklch(58.5% 0.233 277.117);
-    --color-indigo-600: oklch(51.1% 0.262 276.966);
     --color-gray-500: oklch(55.1% 0.027 264.364);
-    --color-white: #fff;
     --spacing: 0.25rem;
     --container-lg: 32rem;
     --text-sm: 0.875rem;
@@ -174,9 +170,6 @@
   }
 }
 @layer utilities {
-  .collapse {
-    visibility: collapse;
-  }
   .container {
     width: 100%;
     @media (width >= 40rem) {
@@ -201,17 +194,14 @@
   .mx-auto {
     margin-inline: auto;
   }
-  .my-4 {
-    margin-block: calc(var(--spacing) * 4);
-  }
   .ms-auto {
     margin-inline-start: auto;
   }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
-  }
-  .mt-auto {
-    margin-top: auto;
   }
   .mb-0 {
     margin-bottom: calc(var(--spacing) * 0);
@@ -239,9 +229,6 @@
   }
   .h-auto {
     height: auto;
-  }
-  .w-100 {
-    width: calc(var(--spacing) * 100);
   }
   .w-full {
     width: 100%;
@@ -293,14 +280,11 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
-  .px-2 {
-    padding-inline: calc(var(--spacing) * 2);
-  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
-  .py-3 {
-    padding-block: calc(var(--spacing) * 3);
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
@@ -342,6 +326,41 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .hover\:underline {
+    &:hover {
+      @media (hover: hover) {
+        text-decoration-line: underline;
+      }
+    }
+  }
+  .hover\:opacity-10 {
+    &:hover {
+      @media (hover: hover) {
+        opacity: 10%;
+      }
+    }
+  }
+  .hover\:opacity-50 {
+    &:hover {
+      @media (hover: hover) {
+        opacity: 50%;
+      }
+    }
+  }
+  .hover\:opacity-100 {
+    &:hover {
+      @media (hover: hover) {
+        opacity: 100%;
+      }
+    }
+  }
+  .hover\:opacity-150 {
+    &:hover {
+      @media (hover: hover) {
+        opacity: 150%;
+      }
+    }
+  }
   .sm\:w-\[300px\] {
     @media (width >= 40rem) {
       width: 300px;
@@ -370,12 +389,14 @@
   }
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat' !important;
+}
 body {
   background-color: rgb(239, 232, 232);
-  font-family: 'Montserrat';
-  margin: 2% auto;
   max-width: 100%;
-  margin: 20px auto;
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -383,7 +404,6 @@ main {
   margin: 2%;
 }
 .navbar {
-  margin: 0 0 0 3%;
   text-align: center;
 }
 header {
