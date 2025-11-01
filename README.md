@@ -40,5 +40,6 @@ git clone https://github.com/DeveloperCorsair/LoveDogs.git
 Para iniciar o Tailwind, no terminal, execute o seguinte comando:
 
 ```
-npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+cd src
+npx @tailwindcss/cli -i ./LoveDogs/src/input.css -o ./LoveDogs/src/output.css --watch
 ```
